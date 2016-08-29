@@ -1,0 +1,42 @@
+ul{
+    margin:0px;
+    padding:0px;
+    width:90%;
+}
+
+.tab {
+    overflow: hidden;
+    list-style-type: none;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 90%;
+    color:#fff;
+}
+
+.tab li {
+    background: #626262;
+    padding: 5px 25px;
+    margin-right: 1px;
+    margin-left: 0px;
+      display: table-cell;
+  vertical-align: middle;
+    border-right: 1px solid #fff;
+}
+
+.tab li.select {
+    background: #3e3e3e;
+    margin-left: 0px;
+}
+
+.content li {
+    background: #eee;
+    padding: 20px;
+    margin-left: 0px;
+    height:160px;
+    overflow:auto;
+}
+
+.hide {
+    display: none;
+}
