@@ -4,7 +4,7 @@
     width:90%;
 }
 
-.previewer .Ptab {
+.Ptab {
     overflow: hidden;
     list-style-type: none;
     display: table;
@@ -14,7 +14,7 @@
     color:#fff;
 }
 
-.previewer .Ptab li {
+.Ptab li {
     background: #626262;
     padding: 5px 25px;
     margin-right: 1px;
@@ -24,12 +24,12 @@
     border-right: 1px solid #fff;
 }
 
-.previewer .Ptab li.select {
+.Ptab li.select {
     background: #3e3e3e;
     margin-left: 0px;
 }
 
-.previewer .Pcontent li {
+.Pcontent li {
     background: #eee;
     padding: 20px;
     margin-left: 0px;
@@ -37,6 +37,6 @@
     overflow:auto;
 }
 
-.previewer .hide {
+.hide {
     display: none;
 }
