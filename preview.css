@@ -1,7 +1,7 @@
-.previewer ul{
-    margin:0px;
-    padding:0px;
-    width:90%;
+.previewer ul {
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
 }
 
 .Ptab {
@@ -11,7 +11,6 @@
     table-layout: fixed;
     text-align: center;
     width: 90%;
-    color:#fff;
 }
 
 .Ptab li {
@@ -22,6 +21,7 @@
     display: table-cell;
     vertical-align: middle;
     border-right: 1px solid #fff;
+    color: #fff;
 }
 
 .Ptab li.select {
@@ -30,12 +30,20 @@
 }
 
 .Pcontent li {
-    background: #eee;
-    padding: 20px;
+    background: #fff;
     margin-left: 0px;
-    height:160px;
-    overflow:auto;
+    height: 200px;
+    overflow: auto;
     border:1px solid #3e3e3e;
+}
+
+.Pcontent iframe {
+    overflow: none;
+    border: none;
+}
+
+.Pcontent pre {
+    margin-top: 0px;
 }
 
 .hide {
